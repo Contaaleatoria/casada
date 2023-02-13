@@ -1,0 +1,66 @@
+body{
+  font-family:Dancing Script;
+background-color: red;
+  
+}
+.casada-image{
+    max-width: 600px;
+    max-height: 500px;
+    display:flex;
+    padding:  0px 50px;
+}
+
+.conteudo-xd{
+ max-height: 500px;
+ position: absolute;
+ z-index: 1;
+ visibility:hidden;
+ justify-content: center;
+}
+.imagens-legais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.texto-das-casadas{
+    font-weight: 600;
+    max-width:1000px ;
+    display:flex;
+    flex-direction: column;
+    font-size:30px;
+    color: #ffff;
+
+}
+.botao-xd{
+background-color: rgb(160, 0, 0) ;
+color:#ffff;
+max-width: 100PX;
+max-height: 100px;
+padding: 20px 20px; 
+font-weight: bold;
+justify-content: center;
+display:flex;
+gap:18px;
+}
+.cabecalho{
+    max-width: 1980px;
+}
+.detalhes{
+    max-width: 1980px;
+    max-height: 800px;
+}
+.xd-image .aberto{
+    visibility: visible;
+} 
+.xd-image{
+  max-height: 500px;
+  
+} 
+.fechar-xd-image{
+   max-width: 40px;
+   max-height: 40px;
+   font-size: 40px;
+   color:#ffff;
+   text-align: center;
+}  
